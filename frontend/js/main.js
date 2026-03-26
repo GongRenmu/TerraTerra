@@ -38,7 +38,7 @@ class App {
         // Set API URL based on environment (localhost vs production)
         const apiUrl = window.location.hostname === 'localhost'
             ? 'http://127.0.0.1:5001/api'
-            : 'https://terratune-backend.onrender.com/api';
+            : '/api';
         this.config = {
             apiUrl: apiUrl
         };
